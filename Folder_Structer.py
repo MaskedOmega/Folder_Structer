@@ -1,5 +1,3 @@
-from PIL import Image 
-import numpy as np
 import os
 from pathlib import Path
 import shutil
@@ -44,5 +42,4 @@ class folder_structer:
         self.get_items(save_path)
 
 #a = folder_structer()
-#a.run("sprite/Idle/idle.png",[48,64])
 #a.copy_struc_save("animation","Sprite")
